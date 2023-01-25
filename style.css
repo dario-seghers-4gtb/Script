@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+    color: rgb(166, 0, 255);
+    font-family: Arial;
+} 
+
+#about {
+    display: flex;
+}
+
+.col {
+    border: 2px solid rgb(166, 0, 255);
+    border-radius: 20px;
+    
+}
+
