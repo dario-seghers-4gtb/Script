@@ -34,3 +34,12 @@ header nav li {
 header img {
     width: 120px;
 }
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 50vh;
+}
+
+video {
+    width: 100%;
+}
