@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Skinny webshop</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="skinny_logo.png" alt="Skinny logo">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h1>Welcome to the Skinny webshop</h1>
+
+		<ul class="product-list">
+			<li>
+				<h2>Oversized T-shirt</h2>
+				<p>A comfortable and stylish T-shirt made for everyday wear.</p>
+				<img src="oversized_tshirt.jpg" alt="Oversized T-shirt">
+				<form>
+					<label for="size">Size:</label>
+					<select id="size">
+						<option value="S">S</option>
+						<option value="M">M</option>
+						<option value="L">L</option>
+						<option value="XL">XL</option>
+					</select>
+					<input type="submit" value="Add to cart">
+				</form>
+			</li>
+
+			<li>
+				<h2>Oversized Hoodie</h2>
+				<p>A cozy and warm hoodie perfect for colder weather.</p>
+				<img src="oversized_hoodie.jpg" alt="Oversized Hoodie">
+				<form>
+					<label for="size">Size:</label>
+					<select id="size">
+						<option value="S">S</option>
+						<option value="M">M</option>
+						<option value="L">L</option>
+						<option value="XL">XL</option>
+					</select>
+					<input type="submit" value="Add to cart">
+				</form>
+			</li>
+
+			<li>
+				<h2>Oversized Jeans</h2>
+				<p>Loose-fitting jeans for a comfortable and casual look.</p>
+				<img src="oversized_jeans.jpg" alt="Oversized Jeans">
+				<form>
+					<label for="size">Size:</label>
+					<select id="size">
+						<option value="S">S</option>
+						<option value="M">M</option>
+						<option value="L">L</option>
+						<option value="XL">XL</option>
+					</select>
+					<input type="submit" value="Add to cart">
+				</form>
+			</li>
+		</ul>
+
+		<div class="cart">
+			<h3>Shopping cart</h3>
+			<ul>
+				<!-- The cart items will be dynamically added here using JavaScript -->
+			</ul>
+			<a href="#" class="checkout-button">Checkout</a>
+		</div>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
