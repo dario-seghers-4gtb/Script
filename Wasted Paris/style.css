@@ -17,6 +17,10 @@ img {
     justify-content: space-between;
     align-items: center;
     font-family: fantasy;
+    
+}
+section {
+    padding:0 4rem
 }
 
 header {
@@ -52,12 +56,22 @@ video {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    
 }
 
 .flex-item {
     flex: 1;
-}
-footer {
-    background-color: black;
     
 }
+#membership .flex-container {
+    padding: 2rem
+}
+
+.highlight{
+    background-color: rgb(255, 255, 255);
+    padding: 2rem
+}
+figure {
+    position: relative;
+}
+.flex-container
